@@ -1,7 +1,8 @@
 {
   "values": [
     "minecraft:creeper",
-    "minecraft:large_fireball",
-    "minecraft:wither_skull"
+    "minecraft:fireball",
+    "minecraft:wither_skull",
+    "minecraft:small_fireball"
   ]
 }
