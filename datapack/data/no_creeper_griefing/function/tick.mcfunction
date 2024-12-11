@@ -1,6 +1,6 @@
-# Decrement Countdown every tick while the value is greater than zero.
+# Decrement creeperCountdown every tick while the value is greater than zero.
 # This is the countdown that determines when mobGriefing will be re-enabled.
-execute if score #creeperCountdown Countdown matches 1.. run scoreboard players remove #Countdown Countdown 1
+execute if score #creeperCountdown creeperCountdown matches 1.. run scoreboard players remove #creeperCountdown creeperCountdown 1
 
 # Whenever a player is within 3 blocks of a creeper reset creeperCountdown to 60 which
 # is the number of ticks it takes a creeper to explode.
