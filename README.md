@@ -1,27 +1,8 @@
-# No Creeper Griefing
+# No Mob Griefing
 
-This is a [datapack][] for Minecraft Java Edition.
-When the pack is loaded creeper explosions will not destroy blocks -
-but explosions will still harm players and mobs.
-Download the pack from the [releases][] page.
+This is a fork of hallettj's No Creeper Griefing: https://github.com/hallettj/no_creeper_griefing/
 
-[datapack]: https://minecraft.gamepedia.com/Data_pack
-[releases]: https://github.com/hallettj/no_creeper_griefing/releases/latest
-
-![creeper](https://user-images.githubusercontent.com/9622/83075733-530f0380-a042-11ea-8d25-f9fd9ae2e0d2.png)
-
-The pack works by temporarily disabling the [`mobGriefing`][mobGriefing] game
-rule whenever a player gets close enough to a creeper to cause it to explode.
-`mobGriefing` remains disabled for 60 ticks,
-which is the time it takes for a creeper to explode,
-and then it is re-enabled.
-
-[mobGriefing]: https://gaming.stackexchange.com/questions/308246/what-does-turning-off-mob-griefing-actually-do/308257
-
-The advantage of disabling `mobGriefing` temporarily vs permanently is that
-`mobGriefing` affects many other game features besides creeper explosions. For
-example villagers cannot breed while `mobGriefing` is disabled because they
-cannot pick up food.
+This fork includes other mobs events, such as explosive projectiles from the Wither and Ghasts.
 
 **This datapack will override your `/gamerule mobGriefing` commands**. If you
 want to disable `mobGriefing` permanently you will need to disable this
