@@ -1,1 +1,1 @@
-scoreboard objectives add Countdown dummy
+scoreboard objectives add explosionCountdown dummy
