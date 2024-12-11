@@ -1,1 +1,1 @@
-scoreboard objectives add creeperCountdown dummy
+scoreboard objectives add Countdown dummy
