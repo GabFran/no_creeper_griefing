@@ -1,2 +1,2 @@
-datapack disable "file/no_creeper_griefing.zip"
+datapack disable "file/no_mob_griefing.zip"
 scoreboard objectives remove Countdown
