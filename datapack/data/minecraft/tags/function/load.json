@@ -1,3 +1,5 @@
 {
   "values": ["no_mob_griefing:install"]
 }
+
+tellraw @a {"text": "No Mob Griefing is enabled!"}
