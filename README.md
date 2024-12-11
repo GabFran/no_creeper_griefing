@@ -4,9 +4,7 @@ This is a fork of hallettj's No Creeper Griefing: https://github.com/hallettj/no
 
 This fork includes other mob griefing events, such as:
 
-Wither Skulls
-Ghast Fireballs
-Blaze Fireballs
+Wither Skulls, Ghast Fireballs and Blaze Fireballs
 
 on top of Creeper Explosions.
 
