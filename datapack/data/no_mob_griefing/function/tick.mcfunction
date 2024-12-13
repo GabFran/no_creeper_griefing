@@ -5,8 +5,8 @@ execute if score #explosionCountdown explosionCountdown matches 1.. run scoreboa
 # Whenever a player in survival is within 3 blocks of a creeper reset explosionCountdown to 60 (3 seconds)
 execute as @a[gamemode=survival] at @s if entity @e[type=minecraft:creeper,distance=..3,limit=1] run scoreboard players set #explosionCountdown explosionCountdown 60
 
-# Whenever a player is within 5 blocks of a wither reset explosionCountdown to 460 (12 seconds)
-execute as @a at @s if entity @e[type=minecraft:wither,distance=..5,limit=1] run scoreboard players set #explosionCountdown explosionCountdown 460
+# Whenever a player is within 5 blocks of a wither reset explosionCountdown to 240 (12 seconds)
+execute as @a at @s if entity @e[type=minecraft:wither,distance=..5,limit=1] run scoreboard players set #explosionCountdown explosionCountdown 240
 
 # Whenever a shooty boi is within 3 blocks of a creeper reset explosionCountdown to 60 (3 seconds)
 execute as @a at @e[type=#no_mob_griefing:shooty_bois] if entity @e[type=minecraft:creeper,distance=..3,limit=1] run scoreboard players set #explosionCountdown explosionCountdown 60 
